@@ -42,6 +42,7 @@ function tailpress_enqueue_scripts() {
 	$theme = wp_get_theme();
 
 	wp_enqueue_style( 'tailpress', tailpress_asset( 'css/app.css' ), array(), $theme->get( 'Version' ) );
+	wp_enqueue_style( 'g-fonts', 'https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;700&display=swap', false );
 	wp_enqueue_script( 'tailpress', tailpress_asset( 'js/app.js' ), array(), $theme->get( 'Version' ) );
 }
 
