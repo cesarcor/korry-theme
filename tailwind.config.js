@@ -25,6 +25,9 @@ module.exports = {
       fontSize: tailpress.fontSizeMapper(
         tailpress.theme('settings.typography.fontSizes', theme)
       ),
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif'],
+      },
     },
     screens: {
       xs: '480px',
@@ -32,7 +35,7 @@ module.exports = {
       md: '782px',
       lg: tailpress.theme('settings.layout.contentSize', theme),
       xl: tailpress.theme('settings.layout.wideSize', theme),
-      '2xl': '1440px',
+      '2xl': '1280px',
     },
   },
   plugins: [tailpress.tailwind],

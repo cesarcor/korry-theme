@@ -3,7 +3,7 @@
   "settings": {
     "layout": {
       "contentSize": "960px",
-      "wideSize": "1280px"
+      "wideSize": "1024px"
     },
     "color": {
       "palette": [
@@ -15,6 +15,11 @@
         {
           "name": "Secondary",
           "slug": "secondary",
+          "color": "#FFBE3F"
+        },
+        {
+          "name": "Terciary",
+          "slug": "terciary",
           "color": "#FFBE3F"
         },
         {
@@ -39,7 +44,7 @@
         {
           "slug": "regular",
           "name": "Regular",
-          "size": "1.5rem"
+          "size": "clamp(.87rem, 2vw, 1rem)"
         },
         {
           "slug": "large",
@@ -60,6 +65,11 @@
           "slug": "xxxl",
           "name": "3XL",
           "size": "1.875rem"
+        },
+        {
+          "slug": "heading",
+          "name": "heading",
+          "size": "clamp(1.35rem, 5vw, 3.5rem)"
         }
       ]
     }
