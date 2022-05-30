@@ -423,6 +423,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
+html {
+  font-family: Poppins, sans-serif;
+}
+
 *, ::before, ::after {
   --tw-translate-x: 0;
   --tw-translate-y: 0;
@@ -502,16 +506,25 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 }
 
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
 @media (min-width: 1280px) {
   .container {
     max-width: 1280px;
   }
 }
 
-@media (min-width: 1440px) {
-  .container {
-    max-width: 1440px;
-  }
+.btn {
+  padding: clamp(0.2rem, 8vw, 1rem) clamp(1rem, 8vw, 2rem);
+  font-size: clamp(0.65rem, 3.5vw, 1rem);
+}
+
+.absolute {
+  position: absolute;
 }
 
 .m-8 {
@@ -549,6 +562,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mb-10 {
   margin-bottom: 2.5rem;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
 }
 
 .mt-4 {
@@ -655,6 +672,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-radius: 0.25rem;
 }
 
+.rounded-full {
+  border-radius: 9999px;
+}
+
 .rounded-xl {
   border-radius: 0.75rem;
 }
@@ -674,6 +695,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .border-transparent {
   border-color: transparent;
+}
+
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
 .bg-primary {
@@ -748,6 +774,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 2rem;
 }
 
+.text-heading {
+  font-size: clamp(1.35rem, 5vw, 3.5rem);
+}
+
+.text-regular {
+  font-size: clamp(.87rem, 2vw, 1rem);
+}
+
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -771,12 +805,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-weight: 700;
 }
 
-.font-extrabold {
-  font-weight: 800;
+.font-normal {
+  font-weight: 400;
 }
 
 .font-medium {
   font-weight: 500;
+}
+
+.font-extrabold {
+  font-weight: 800;
 }
 
 .font-semibold {
@@ -849,7 +887,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .alignwide {
   margin: 2rem 0;
-  max-width: 1280px !important;
+  max-width: 1024px !important;
 }
 
 .alignnone {
@@ -913,7 +951,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .hero {
-  height: 80vh;
+  height: 85vh;
+  background-image: url('../assets/imgs/pattern-min.png');
+  background-repeat: no-repeat;
+  background-position: -25vw -30vh;
 }
 
 article > *:not(.entry-content), .entry-content > * {
@@ -971,6 +1012,21 @@ article > *:not(.entry-content), .entry-content > * {
       list-style-type: decimal;
     }
 
+.hover\:border-terciary:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 190 63 / var(--tw-border-opacity));
+}
+
+.hover\:bg-terciary:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 190 63 / var(--tw-bg-opacity));
+}
+
+.hover\:text-terciary:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 190 63 / var(--tw-text-opacity));
+}
+
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -1002,12 +1058,50 @@ article > *:not(.entry-content), .entry-content > * {
     margin-bottom: 1.5rem;
   }
 
+  .md\:-mx-4 {
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
+
+  .md\:mx-4 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .md\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .md\:block {
+    display: block;
+  }
+
   .md\:flex {
     display: flex;
   }
 
+  .md\:hidden {
+    display: none;
+  }
+
   .md\:w-1\/2 {
     width: 50%;
+  }
+
+  .md\:items-center {
+    align-items: center;
+  }
+
+  .md\:justify-between {
+    justify-content: space-between;
+  }
+
+  .md\:bg-transparent {
+    background-color: transparent;
+  }
+
+  .md\:p-0 {
+    padding: 0px;
   }
 
   .md\:text-3xl {

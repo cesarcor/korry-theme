@@ -32,16 +32,20 @@
   }
 }
 
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px
+  }
+}
+
 @media (min-width: 1280px) {
   .container {
     max-width: 1280px
   }
 }
 
-@media (min-width: 1440px) {
-  .container {
-    max-width: 1440px
-  }
+.absolute {
+  position: absolute
 }
 
 .m-8 {
@@ -79,6 +83,10 @@
 
 .mb-10 {
   margin-bottom: 2.5rem
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem
 }
 
 .mt-4 {
@@ -185,6 +193,10 @@
   border-radius: 0.25rem
 }
 
+.rounded-full {
+  border-radius: 9999px
+}
+
 .rounded-xl {
   border-radius: 0.75rem
 }
@@ -204,6 +216,11 @@
 
 .border-transparent {
   border-color: transparent
+}
+
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity))
 }
 
 .bg-primary {
@@ -278,6 +295,14 @@
   line-height: 2rem
 }
 
+.text-heading {
+  font-size: clamp(1.35rem, 5vw, 3.5rem)
+}
+
+.text-regular {
+  font-size: clamp(.87rem, 2vw, 1rem)
+}
+
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem
@@ -301,12 +326,16 @@
   font-weight: 700
 }
 
-.font-extrabold {
-  font-weight: 800
+.font-normal {
+  font-weight: 400
 }
 
 .font-medium {
   font-weight: 500
+}
+
+.font-extrabold {
+  font-weight: 800
 }
 
 .font-semibold {
@@ -379,7 +408,7 @@
 
 .alignwide {
   margin: 2rem 0;
-  max-width: 1280px !important
+  max-width: 1024px !important
 }
 
 .alignnone {
@@ -447,15 +476,30 @@ body {
 }
 
 .wp-block {
-  max-width: 1280px
+  max-width: 1024px
 }
 
 .wp-block[data-align=wide] {
-  max-width: 1280px
+  max-width: 1024px
 }
 
 .wp-block[data-align=full] {
   max-width: 100%
+}
+
+.hover\:border-terciary:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 190 63 / var(--tw-border-opacity))
+}
+
+.hover\:bg-terciary:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 190 63 / var(--tw-bg-opacity))
+}
+
+.hover\:text-terciary:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 190 63 / var(--tw-text-opacity))
 }
 
 .focus\:outline-none:focus {
@@ -489,12 +533,50 @@ body {
     margin-bottom: 1.5rem
   }
 
+  .md\:-mx-4 {
+    margin-left: -1rem;
+    margin-right: -1rem
+  }
+
+  .md\:mx-4 {
+    margin-left: 1rem;
+    margin-right: 1rem
+  }
+
+  .md\:mt-0 {
+    margin-top: 0px
+  }
+
+  .md\:block {
+    display: block
+  }
+
   .md\:flex {
     display: flex
   }
 
+  .md\:hidden {
+    display: none
+  }
+
   .md\:w-1\/2 {
     width: 50%
+  }
+
+  .md\:items-center {
+    align-items: center
+  }
+
+  .md\:justify-between {
+    justify-content: space-between
+  }
+
+  .md\:bg-transparent {
+    background-color: transparent
+  }
+
+  .md\:p-0 {
+    padding: 0px
   }
 
   .md\:text-3xl {
