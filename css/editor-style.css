@@ -71,6 +71,11 @@
   margin-right: auto
 }
 
+.my-\[40px\] {
+  margin-top: 40px;
+  margin-bottom: 40px
+}
+
 .my-12 {
   margin-top: 3rem;
   margin-bottom: 3rem
@@ -79,6 +84,16 @@
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem
+}
+
+.my-\[60px\] {
+  margin-top: 60px;
+  margin-bottom: 60px
+}
+
+.my-\[80px\] {
+  margin-top: 80px;
+  margin-bottom: 80px
 }
 
 .mb-8 {
@@ -93,12 +108,12 @@
   margin-bottom: 1.25rem
 }
 
-.mt-4 {
-  margin-top: 1rem
-}
-
 .mb-4 {
   margin-bottom: 1rem
+}
+
+.mt-4 {
+  margin-top: 1rem
 }
 
 .mb-1 {
@@ -107,6 +122,10 @@
 
 .mb-12 {
   margin-bottom: 3rem
+}
+
+.mb-\[50px\] {
+  margin-bottom: 50px
 }
 
 .block {
@@ -137,22 +156,6 @@
   height: 1.5rem
 }
 
-.h-20 {
-  height: 5rem
-}
-
-.h-44 {
-  height: 11rem
-}
-
-.h-56 {
-  height: 14rem
-}
-
-.h-80 {
-  height: 20rem
-}
-
 .min-h-screen {
   min-height: 100vh
 }
@@ -167,6 +170,10 @@
 
 .w-6 {
   width: 1.5rem
+}
+
+.w-\[50\%\] {
+  width: 50%
 }
 
 .min-w-\[50\%\] {
@@ -187,6 +194,14 @@
 
 .flex-grow {
   flex-grow: 1
+}
+
+.basis-\[50\%\] {
+  flex-basis: 50%
+}
+
+.basis-\[48\%\] {
+  flex-basis: 48%
 }
 
 .cursor-pointer {
@@ -221,6 +236,26 @@
   justify-content: space-between
 }
 
+.justify-around {
+  justify-content: space-around
+}
+
+.gap-\[1rem\] {
+  gap: 1rem
+}
+
+.gap-\[1\%\] {
+  gap: 1%
+}
+
+.gap-\[15px\] {
+  gap: 15px
+}
+
+.gap-\[20px\] {
+  gap: 20px
+}
+
 .rounded {
   border-radius: 0.25rem
 }
@@ -234,6 +269,10 @@
 }
 
 .border {
+  border-width: 1px
+}
+
+.border-\[1px\] {
   border-width: 1px
 }
 
@@ -255,6 +294,11 @@
   border-color: rgb(255 255 255 / var(--tw-border-opacity))
 }
 
+.border-gray {
+  --tw-border-opacity: 1;
+  border-color: rgb(127 136 159 / var(--tw-border-opacity))
+}
+
 .bg-primary {
   --tw-bg-opacity: 1;
   background-color: rgb(23 64 63 / var(--tw-bg-opacity))
@@ -272,6 +316,10 @@
 
 .p-4 {
   padding: 1rem
+}
+
+.p-\[10px\] {
+  padding: 10px
 }
 
 .px-4 {
@@ -335,6 +383,10 @@
   font-size: clamp(.87rem, 2vw, 1rem)
 }
 
+.text-xxxl {
+  font-size: 1.875rem
+}
+
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem
@@ -348,10 +400,6 @@
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem
-}
-
-.text-xxxl {
-  font-size: 1.875rem
 }
 
 .font-light {
@@ -407,6 +455,11 @@
 .text-primary {
   --tw-text-opacity: 1;
   color: rgb(23 64 63 / var(--tw-text-opacity))
+}
+
+.text-terciary {
+  --tw-text-opacity: 1;
+  color: rgb(255 190 63 / var(--tw-text-opacity))
 }
 
 .text-secondary {
@@ -599,8 +652,72 @@ body {
     width: 50%
   }
 
+  .md\:w-\[33\.3\%\] {
+    width: 33.3%
+  }
+
+  .md\:w-\[33\%\] {
+    width: 33%
+  }
+
+  .md\:w-\[32\%\] {
+    width: 32%
+  }
+
+  .md\:w-\[31\%\] {
+    width: 31%
+  }
+
+  .md\:w-\[3-\%\] {
+    width: 3 - %
+  }
+
+  .md\:w-\[30\%\] {
+    width: 30%
+  }
+
+  .md\:w-\[19\.5\%\] {
+    width: 19.5%
+  }
+
+  .md\:w-\[29\.5\%\] {
+    width: 29.5%
+  }
+
+  .md\:w-\[29\%\] {
+    width: 29%
+  }
+
+  .md\:w-\[28\%\] {
+    width: 28%
+  }
+
+  .md\:w-\[27\%\] {
+    width: 27%
+  }
+
+  .md\:w-\[25\%\] {
+    width: 25%
+  }
+
   .md\:min-w-\[25\%\] {
     min-width: 25%
+  }
+
+  .md\:min-w-\[33\.3\%\] {
+    min-width: 33.3%
+  }
+
+  .md\:max-w-\[30\%\] {
+    max-width: 30%
+  }
+
+  .md\:basis-\[32\.2\%\] {
+    flex-basis: 32.2%
+  }
+
+  .md\:basis-\[31\.8\%\] {
+    flex-basis: 31.8%
   }
 
   .md\:flex-nowrap {
@@ -630,6 +747,10 @@ body {
 }
 
 @media (min-width: 960px) {
+  .lg\:basis-\[32\.2\%\] {
+    flex-basis: 32.2%
+  }
+
   .lg\:text-7xl {
     font-size: 4.5rem;
     line-height: 1

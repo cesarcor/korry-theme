@@ -52,5 +52,87 @@
     </div>
 </section>
 
+<section class="site-section my-[80px]">
+
+    <div class="container mx-auto">
+
+        <div class="flex justify-between flex-wrap md:no-wrap items-center mb-[50px]">
+            <div class="md:max-w-[30%]">
+                <h2 class="text-terciary">-- Services</h2>
+                <span class="font-bold text-xxxl">Our services, how can we help you?</span>
+            </div>
+            <div class="md:max-w-[30%]">
+                <p class="text-gray text-regular">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec
+                    pharetra dui. Donec bibendum
+                    facilisis metus in ullamcorper.</p>
+            </div>
+        </div>
+        <div class="flex flex-wrap gap-[1rem]">
+            <div
+                class="text-center w-[50%] basis-[48%] md:basis-[31.8%] lg:basis-[32.2%] border-[1px] border-gray p-[10px]">
+                <div></div>
+                <div>
+                    <h3 class="font-bold">UI/UX Design</h3>
+                    <p class="text-regular text-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                        nec pharetra dui. Donec bibendum
+                        facilisis metus in ullamcorper.</p>
+                </div>
+            </div>
+            <div
+                class="text-center w-[50%] basis-[48%] md:basis-[31.8%] lg:basis-[32.2%] border-[1px] border-gray p-[10px]">
+                <div></div>
+                <div>
+                    <h3 class="font-bold">Development</h3>
+                    <p class="text-regular text-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                        nec pharetra dui. Donec bibendum
+                        facilisis metus in ullamcorper.</p>
+                </div>
+            </div>
+            <div
+                class="text-center w-[50%] basis-[48%] md:basis-[31.8%] lg:basis-[32.2%] border-[1px] border-gray p-[10px]">
+                <div></div>
+                <div>
+                    <h3 class="font-bold">Content Writing</h3>
+                    <p class="text-regular text-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                        nec pharetra dui. Donec bibendum
+                        facilisis metus in ullamcorper.</p>
+                </div>
+            </div>
+            <div
+                class="text-center w-[50%] basis-[48%] md:basis-[31.8%] lg:basis-[32.2%] border-[1px] border-gray p-[10px]">
+                <div></div>
+                <div>
+                    <h3 class="font-bold">Branding</h3>
+                    <p class="text-regular text-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                        nec pharetra dui. Donec bibendum
+                        facilisis metus in ullamcorper.</p>
+                </div>
+            </div>
+            <div
+                class="text-center w-[50%] basis-[48%] md:basis-[31.8%] lg:basis-[32.2%] border-[1px] border-gray p-[10px]">
+                <div></div>
+                <div>
+                    <h3 class="font-bold">Illustration</h3>
+                    <p class="text-regular text-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                        nec pharetra dui. Donec bibendum
+                        facilisis metus in ullamcorper.</p>
+                </div>
+            </div>
+            <div
+                class="text-center w-[50%] basis-[48%] md:basis-[31.8%] lg:basis-[32.2%] border-[1px] border-gray p-[10px]">
+                <div></div>
+                <div>
+                    <h3 class="font-bold">Motion Graphic</h3>
+                    <p class="text-regular text-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                        nec pharetra dui. Donec bibendum
+                        facilisis metus in ullamcorper.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
 <?php
 get_footer();
