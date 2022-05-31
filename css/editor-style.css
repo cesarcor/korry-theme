@@ -48,6 +48,10 @@
   position: absolute
 }
 
+.relative {
+  position: relative
+}
+
 .m-8 {
   margin: 2rem
 }
@@ -105,6 +109,10 @@
   margin-bottom: 3rem
 }
 
+.block {
+  display: block
+}
+
 .inline-block {
   display: inline-block
 }
@@ -129,6 +137,22 @@
   height: 1.5rem
 }
 
+.h-20 {
+  height: 5rem
+}
+
+.h-44 {
+  height: 11rem
+}
+
+.h-56 {
+  height: 14rem
+}
+
+.h-80 {
+  height: 20rem
+}
+
 .min-h-screen {
   min-height: 100vh
 }
@@ -143,6 +167,10 @@
 
 .w-6 {
   width: 1.5rem
+}
+
+.min-w-\[50\%\] {
+  min-width: 50%
 }
 
 .max-w-sm {
@@ -175,6 +203,10 @@
 
 .flex-col {
   flex-direction: column
+}
+
+.flex-wrap {
+  flex-wrap: wrap
 }
 
 .items-center {
@@ -316,6 +348,10 @@
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem
+}
+
+.text-xxxl {
+  font-size: 1.875rem
 }
 
 .font-light {
@@ -563,6 +599,14 @@ body {
     width: 50%
   }
 
+  .md\:min-w-\[25\%\] {
+    min-width: 25%
+  }
+
+  .md\:flex-nowrap {
+    flex-wrap: nowrap
+  }
+
   .md\:items-center {
     align-items: center
   }
@@ -586,48 +630,6 @@ body {
 }
 
 @media (min-width: 960px) {
-  .lg\:-mx-4 {
-    margin-left: -1rem;
-    margin-right: -1rem
-  }
-
-  .lg\:mx-4 {
-    margin-left: 1rem;
-    margin-right: 1rem
-  }
-
-  .lg\:mt-0 {
-    margin-top: 0px
-  }
-
-  .lg\:block {
-    display: block
-  }
-
-  .lg\:flex {
-    display: flex
-  }
-
-  .lg\:hidden {
-    display: none
-  }
-
-  .lg\:items-center {
-    align-items: center
-  }
-
-  .lg\:justify-between {
-    justify-content: space-between
-  }
-
-  .lg\:bg-transparent {
-    background-color: transparent
-  }
-
-  .lg\:p-0 {
-    padding: 0px
-  }
-
   .lg\:text-7xl {
     font-size: 4.5rem;
     line-height: 1
