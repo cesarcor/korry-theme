@@ -126,8 +126,16 @@
   margin-bottom: 1rem
 }
 
-.mb-\[50px\] {
-  margin-bottom: 50px
+.mb-\[60px\] {
+  margin-bottom: 60px
+}
+
+.mt-\[20px\] {
+  margin-top: 20px
+}
+
+.mb-\[30px\] {
+  margin-bottom: 30px
 }
 
 .mb-\[80px\] {
@@ -148,14 +156,6 @@
 
 .mb-12 {
   margin-bottom: 3rem
-}
-
-.mt-\[20px\] {
-  margin-top: 20px
-}
-
-.mb-\[30px\] {
-  margin-bottom: 30px
 }
 
 .block {
@@ -182,28 +182,16 @@
   height: 100vh
 }
 
-.h-\[80px\] {
-  height: 80px
-}
-
-.h-\[50px\] {
-  height: 50px
-}
-
-.h-6 {
-  height: 1.5rem
-}
-
-.h-\[100px\] {
-  height: 100px
-}
-
 .h-\[60px\] {
   height: 60px
 }
 
 .h-\[30px\] {
   height: 30px
+}
+
+.h-6 {
+  height: 1.5rem
 }
 
 .min-h-screen {
@@ -222,20 +210,12 @@
   width: 50%
 }
 
-.w-\[80px\] {
-  width: 80px
+.w-\[60px\] {
+  width: 60px
 }
 
 .w-6 {
   width: 1.5rem
-}
-
-.w-\[100px\] {
-  width: 100px
-}
-
-.w-\[60px\] {
-  width: 60px
 }
 
 .min-w-\[50\%\] {

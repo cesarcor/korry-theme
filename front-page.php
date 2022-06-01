@@ -56,7 +56,7 @@
 
     <div class="container mx-auto">
 
-        <div class="flex justify-between flex-wrap md:no-wrap items-center mb-[50px]">
+        <div class="flex justify-between flex-wrap md:no-wrap items-center mb-[60px]">
             <div class="md:max-w-[30%]">
                 <h2 class="text-terciary">-- Services</h2>
                 <span class="font-bold text-xxxl">Our services, how can we help you?</span>
