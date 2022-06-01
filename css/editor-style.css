@@ -373,6 +373,11 @@
   padding-bottom: 40px
 }
 
+.py-\[20px\] {
+  padding-top: 20px;
+  padding-bottom: 20px
+}
+
 .py-\[30px\] {
   padding-top: 30px;
   padding-bottom: 30px
@@ -381,11 +386,6 @@
 .py-\[80px\] {
   padding-top: 80px;
   padding-bottom: 80px
-}
-
-.py-\[20px\] {
-  padding-top: 20px;
-  padding-bottom: 20px
 }
 
 .py-3 {

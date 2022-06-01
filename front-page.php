@@ -163,7 +163,7 @@
 
 </section>
 
-<section class="site-section steps-section bg-primary">
+<section class="site-section steps-section bg-primary py-[20px]">
 
     <div class="container mx-auto flex items-center">
 
