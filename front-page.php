@@ -206,7 +206,7 @@
                 </figure>
             </article>
             <div class="md:w-[50%] flex flex-wrap gap-[1rem]">
-                <article class="md:w-[48%]">
+                <article class="md:w-[47.6%]">
                     <figure>
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/work2.jpg" alt="Work Two">
                     </figure>
@@ -217,7 +217,7 @@
                             nec pharetra dui.</p>
                     </div>
                 </article>
-                <article class="md:w-[48%]">
+                <article class="md:w-[47.6%]">
                     <figure>
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/work3.jpg" alt="Work Two">
                     </figure>
@@ -226,7 +226,7 @@
                         iquam
                         nec pharetra dui.</p>
                 </article>
-                <article class="md:w-[48%]">
+                <article class="md:w-[47.6%]">
                     <figure>
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/work4.jpg" alt="Work Two">
                     </figure>
@@ -235,7 +235,7 @@
                         iquam
                         nec pharetra dui.</p>
                 </article>
-                <article class="md:w-[48%]">
+                <article class="md:w-[47.6%]">
                     <figure>
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/work5.jpg" alt="Work Two">
                     </figure>
