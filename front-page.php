@@ -68,8 +68,7 @@
             </div>
         </div>
         <div class="flex flex-wrap gap-[1rem]">
-            <div
-                class="text-center w-[50%] basis-[48%] md:basis-[31.8%] lg:basis-[32.2%] border-[1px] border-gray p-[10px]">
+            <div class="text-center md:basis-[31.8%] lg:basis-[32.2%] border-[1px] border-gray p-[10px]">
                 <div>
                     <figure
                         class="h-[60px] w-[60px] mx-auto mt-[20px] flex items-center text-center rounded-full p-[10px] bg-lightgray">
@@ -84,8 +83,7 @@
                         facilisis metus in ullamcorper.</p>
                 </div>
             </div>
-            <div
-                class="text-center w-[50%] basis-[48%] md:basis-[31.8%] lg:basis-[32.2%] border-[1px] border-gray p-[10px]">
+            <div class="text-center md:basis-[31.8%] lg:basis-[32.2%] border-[1px] border-gray p-[10px]">
                 <div>
                     <figure
                         class="h-[60px] w-[60px] mx-auto mt-[20px] flex items-center text-center rounded-full p-[10px] bg-lightgray">
@@ -100,8 +98,7 @@
                         facilisis metus in ullamcorper.</p>
                 </div>
             </div>
-            <div
-                class="text-center w-[50%] basis-[48%] md:basis-[31.8%] lg:basis-[32.2%] border-[1px] border-gray p-[10px]">
+            <div class="text-center md:basis-[31.8%] lg:basis-[32.2%] border-[1px] border-gray p-[10px]">
                 <div>
                     <figure
                         class="h-[60px] w-[60px] mx-auto mt-[20px] flex items-center text-center rounded-full p-[10px] bg-lightgray">
@@ -116,8 +113,7 @@
                         facilisis metus in ullamcorper.</p>
                 </div>
             </div>
-            <div
-                class="text-center w-[50%] basis-[48%] md:basis-[31.8%] lg:basis-[32.2%] border-[1px] border-gray p-[10px]">
+            <div class="text-center md:basis-[31.8%] lg:basis-[32.2%] border-[1px] border-gray p-[10px]">
                 <div>
                     <figure
                         class="h-[60px] w-[60px] mx-auto mt-[20px] flex items-center text-center rounded-full p-[10px] bg-lightgray">
@@ -131,8 +127,7 @@
                         facilisis metus in ullamcorper.</p>
                 </div>
             </div>
-            <div
-                class="text-center w-[50%] basis-[48%] md:basis-[31.8%] lg:basis-[32.2%] border-[1px] border-gray p-[10px]">
+            <div class="text-center md:basis-[31.8%] lg:basis-[32.2%] border-[1px] border-gray p-[10px]">
                 <div>
                     <figure
                         class="h-[60px] w-[60px] mx-auto mt-[20px] flex items-center text-center rounded-full p-[10px] bg-lightgray">
@@ -147,8 +142,7 @@
                         facilisis metus in ullamcorper.</p>
                 </div>
             </div>
-            <div
-                class="text-center w-[50%] basis-[48%] md:basis-[31.8%] lg:basis-[32.2%] border-[1px] border-gray p-[10px]">
+            <div class="text-center md:basis-[31.8%] lg:basis-[32.2%] border-[1px] border-gray p-[10px]">
                 <div>
                     <figure
                         class="h-[60px] w-[60px] mx-auto mt-[20px] flex items-center rounded-full p-[10px] bg-lightgray">

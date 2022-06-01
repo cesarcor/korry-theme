@@ -206,12 +206,12 @@
   width: 4rem
 }
 
-.w-\[50\%\] {
-  width: 50%
-}
-
 .w-\[60px\] {
   width: 60px
+}
+
+.w-\[50\%\] {
+  width: 50%
 }
 
 .w-6 {
@@ -236,10 +236,6 @@
 
 .flex-grow {
   flex-grow: 1
-}
-
-.basis-\[48\%\] {
-  flex-basis: 48%
 }
 
 .cursor-pointer {
