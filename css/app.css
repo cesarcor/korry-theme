@@ -535,8 +535,8 @@ html {
   margin: 2rem;
 }
 
-.m-0 {
-  margin: 0px;
+.m-\[40px\] {
+  margin: 40px;
 }
 
 .my-3 {
@@ -549,34 +549,14 @@ html {
   margin-bottom: 2rem;
 }
 
-.my-\[50px\] {
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
 }
 
-.my-\[80px\] {
-  margin-top: 80px;
-  margin-bottom: 80px;
-}
-
-.my-12 {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-}
-
-.my-4 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
-.my-\[40px\] {
-  margin-top: 40px;
-  margin-bottom: 40px;
+.my-\[50px\] {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .my-\[30px\] {
@@ -587,6 +567,26 @@ html {
 .mx-0 {
   margin-left: 0px;
   margin-right: 0px;
+}
+
+.my-\[80px\] {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.my-\[20px\] {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.my-12 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .mb-8 {
@@ -619,10 +619,6 @@ html {
 
 .mb-12 {
   margin-bottom: 3rem;
-}
-
-.mb-\[30px\] {
-  margin-bottom: 30px;
 }
 
 .block {
@@ -697,10 +693,6 @@ html {
   flex-basis: 48%;
 }
 
-.basis-\[50\%\] {
-  flex-basis: 50%;
-}
-
 .cursor-pointer {
   cursor: pointer;
 }
@@ -733,12 +725,12 @@ html {
   justify-content: space-between;
 }
 
-.gap-\[1rem\] {
-  gap: 1rem;
-}
-
 .gap-\[1\.5rem\] {
   gap: 1.5rem;
+}
+
+.gap-\[1rem\] {
+  gap: 1rem;
 }
 
 .rounded {
@@ -774,14 +766,14 @@ html {
   border-color: rgb(23 64 63 / var(--tw-border-opacity));
 }
 
-.border-white {
-  --tw-border-opacity: 1;
-  border-color: rgb(255 255 255 / var(--tw-border-opacity));
-}
-
 .border-gray {
   --tw-border-opacity: 1;
   border-color: rgb(127 136 159 / var(--tw-border-opacity));
+}
+
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
 .border-transparent {
@@ -811,10 +803,6 @@ html {
   padding: 1rem;
 }
 
-.p-0 {
-  padding: 0px;
-}
-
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -828,6 +816,11 @@ html {
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
+}
+
+.py-\[40px\] {
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .py-3 {
@@ -845,9 +838,9 @@ html {
   padding-bottom: 1.5rem;
 }
 
-.py-\[40px\] {
-  padding-top: 40px;
-  padding-bottom: 40px;
+.py-\[30px\] {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .pb-12 {
@@ -872,6 +865,10 @@ html {
   font-size: 1.875rem;
 }
 
+.text-xl {
+  font-size: 1.25rem;
+}
+
 .text-heading {
   font-size: clamp(1.35rem, 5vw, 3.5rem);
 }
@@ -893,14 +890,6 @@ html {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
-}
-
-.text-xxl {
-  font-size: 1.5rem;
-}
-
-.text-xl {
-  font-size: 1.25rem;
 }
 
 .font-light {
@@ -1210,24 +1199,16 @@ article > *:not(.entry-content), .entry-content > * {
     width: 50%;
   }
 
-  .md\:w-\[30\%\] {
-    width: 30%;
-  }
-
-  .md\:w-\[50\%\] {
-    width: 50%;
-  }
-
-  .md\:w-\[25\%\] {
-    width: 25%;
+  .md\:w-\[35\%\] {
+    width: 35%;
   }
 
   .md\:w-\[40\%\] {
     width: 40%;
   }
 
-  .md\:w-\[35\%\] {
-    width: 35%;
+  .md\:w-\[50\%\] {
+    width: 50%;
   }
 
   .md\:min-w-\[25\%\] {

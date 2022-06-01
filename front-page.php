@@ -134,5 +134,36 @@
 
 </section>
 
+<section class="site-section steps-section bg-primary">
+
+    <div class="container mx-auto flex items-center">
+
+        <figure class="hidden md:block md:w-[50%] m-[40px]">
+            <image src="<?php echo get_template_directory_uri(); ?>/assets/imgs/planning.jpg" alt="how it works" />
+        </figure>
+
+        <div class="text-white md:w-[50%] py-[30px]">
+            <h2 class="text-terciary">-- How it works</h2>
+            <span class="font-bold text-xxxl">Steps to get powerful services</span>
+            <div>
+                <div class="my-[20px]">
+                    <h4 class="font-medium">1. Sitemap & User Flow</h4>
+                    <p class="text-regular">lorem ipsum dolor sit amet, consectetur adipiscing elit Aliquam nec.</p>
+                </div>
+                <div class="my-[20px]">
+                    <h4 class="font-medium">2. Wireframing / Lofi</h4>
+                    <p class="text-regular">lorem ipsum dolor sit amet, consectetur adipiscing elit Aliquam nec.</p>
+                </div>
+                <div class="my-[20px]">
+                    <h4 class="font-medium">3. Visualize / Hifi</h4>
+                    <p class="text-regular">lorem ipsum dolor sit amet, consectetur adipiscing elit Aliquam nec.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
 <?php
 get_footer();
