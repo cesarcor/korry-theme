@@ -1091,9 +1091,13 @@ html {
 
 .hero {
   height: 85vh;
+  background-position: -25vw -30vh;
+}
+
+.hero,
+.steps-section {
   background-image: url('../assets/imgs/pattern-min.png');
   background-repeat: no-repeat;
-  background-position: -25vw -30vh;
 }
 
 .homepage-video-container {
@@ -1105,6 +1109,10 @@ html {
   top: -100px;
   height: 55vh;
   width: 100%;
+}
+
+.steps-section {
+  background-position: -20vw -20vh;
 }
 
 article > *:not(.entry-content), .entry-content > * {
@@ -1248,10 +1256,6 @@ article > *:not(.entry-content), .entry-content > * {
 
   .md\:w-\[50\%\] {
     width: 50%;
-  }
-
-  .md\:w-\[48\%\] {
-    width: 48%;
   }
 
   .md\:w-\[47\.6\%\] {

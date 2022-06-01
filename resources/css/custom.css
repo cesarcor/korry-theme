@@ -13,9 +13,13 @@
 
 .hero {
   height: 85vh;
+  background-position: -25vw -30vh;
+}
+
+.hero,
+.steps-section {
   background-image: url('../assets/imgs/pattern-min.png');
   background-repeat: no-repeat;
-  background-position: -25vw -30vh;
 }
 
 .homepage-video-container {
@@ -27,6 +31,10 @@
   top: -100px;
   height: 55vh;
   width: 100%;
+}
+
+.steps-section {
+  background-position: -20vw -20vh;
 }
 
 article > *:not(.entry-content),
