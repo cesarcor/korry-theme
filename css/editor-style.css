@@ -56,6 +56,10 @@
   margin: 2rem
 }
 
+.m-0 {
+  margin: 0px
+}
+
 .my-3 {
   margin-top: 0.75rem;
   margin-bottom: 0.75rem
@@ -66,14 +70,19 @@
   margin-bottom: 2rem
 }
 
+.my-\[50px\] {
+  margin-top: 50px;
+  margin-bottom: 50px
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto
 }
 
-.my-\[40px\] {
-  margin-top: 40px;
-  margin-bottom: 40px
+.my-\[80px\] {
+  margin-top: 80px;
+  margin-bottom: 80px
 }
 
 .my-12 {
@@ -86,14 +95,19 @@
   margin-bottom: 1rem
 }
 
-.my-\[60px\] {
-  margin-top: 60px;
-  margin-bottom: 60px
+.my-\[40px\] {
+  margin-top: 40px;
+  margin-bottom: 40px
 }
 
-.my-\[80px\] {
-  margin-top: 80px;
-  margin-bottom: 80px
+.my-\[30px\] {
+  margin-top: 30px;
+  margin-bottom: 30px
+}
+
+.mx-0 {
+  margin-left: 0px;
+  margin-right: 0px
 }
 
 .mb-8 {
@@ -112,6 +126,10 @@
   margin-bottom: 1rem
 }
 
+.mb-\[50px\] {
+  margin-bottom: 50px
+}
+
 .mt-4 {
   margin-top: 1rem
 }
@@ -124,8 +142,8 @@
   margin-bottom: 3rem
 }
 
-.mb-\[50px\] {
-  margin-bottom: 50px
+.mb-\[30px\] {
+  margin-bottom: 30px
 }
 
 .block {
@@ -168,12 +186,12 @@
   width: 4rem
 }
 
-.w-6 {
-  width: 1.5rem
-}
-
 .w-\[50\%\] {
   width: 50%
+}
+
+.w-6 {
+  width: 1.5rem
 }
 
 .min-w-\[50\%\] {
@@ -196,12 +214,12 @@
   flex-grow: 1
 }
 
-.basis-\[50\%\] {
-  flex-basis: 50%
-}
-
 .basis-\[48\%\] {
   flex-basis: 48%
+}
+
+.basis-\[50\%\] {
+  flex-basis: 50%
 }
 
 .cursor-pointer {
@@ -236,24 +254,12 @@
   justify-content: space-between
 }
 
-.justify-around {
-  justify-content: space-around
-}
-
 .gap-\[1rem\] {
   gap: 1rem
 }
 
-.gap-\[1\%\] {
-  gap: 1%
-}
-
-.gap-\[15px\] {
-  gap: 15px
-}
-
-.gap-\[20px\] {
-  gap: 20px
+.gap-\[1\.5rem\] {
+  gap: 1.5rem
 }
 
 .rounded {
@@ -268,11 +274,11 @@
   border-radius: 0.75rem
 }
 
-.border {
+.border-\[1px\] {
   border-width: 1px
 }
 
-.border-\[1px\] {
+.border {
   border-width: 1px
 }
 
@@ -280,13 +286,13 @@
   border-bottom-width: 1px
 }
 
+.border-b-\[1px\] {
+  border-bottom-width: 1px
+}
+
 .border-primary {
   --tw-border-opacity: 1;
   border-color: rgb(23 64 63 / var(--tw-border-opacity))
-}
-
-.border-transparent {
-  border-color: transparent
 }
 
 .border-white {
@@ -297,6 +303,10 @@
 .border-gray {
   --tw-border-opacity: 1;
   border-color: rgb(127 136 159 / var(--tw-border-opacity))
+}
+
+.border-transparent {
+  border-color: transparent
 }
 
 .bg-primary {
@@ -314,12 +324,16 @@
      object-position: center
 }
 
+.p-\[10px\] {
+  padding: 10px
+}
+
 .p-4 {
   padding: 1rem
 }
 
-.p-\[10px\] {
-  padding: 10px
+.p-0 {
+  padding: 0px
 }
 
 .px-4 {
@@ -337,11 +351,6 @@
   padding-right: 0.75rem
 }
 
-.py-12 {
-  padding-top: 3rem;
-  padding-bottom: 3rem
-}
-
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem
@@ -355,6 +364,11 @@
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem
+}
+
+.py-\[40px\] {
+  padding-top: 40px;
+  padding-bottom: 40px
 }
 
 .pb-12 {
@@ -375,16 +389,16 @@
   line-height: 2rem
 }
 
+.text-xxxl {
+  font-size: 1.875rem
+}
+
 .text-heading {
   font-size: clamp(1.35rem, 5vw, 3.5rem)
 }
 
 .text-regular {
   font-size: clamp(.87rem, 2vw, 1rem)
-}
-
-.text-xxxl {
-  font-size: 1.875rem
 }
 
 .text-lg {
@@ -402,6 +416,14 @@
   line-height: 1.25rem
 }
 
+.text-xxl {
+  font-size: 1.5rem
+}
+
+.text-xl {
+  font-size: 1.25rem
+}
+
 .font-light {
   font-weight: 300
 }
@@ -410,12 +432,12 @@
   font-weight: 700
 }
 
-.font-normal {
-  font-weight: 400
-}
-
 .font-medium {
   font-weight: 500
+}
+
+.font-normal {
+  font-weight: 400
 }
 
 .font-extrabold {
@@ -652,68 +674,32 @@ body {
     width: 50%
   }
 
-  .md\:w-\[33\.3\%\] {
-    width: 33.3%
-  }
-
-  .md\:w-\[33\%\] {
-    width: 33%
-  }
-
-  .md\:w-\[32\%\] {
-    width: 32%
-  }
-
-  .md\:w-\[31\%\] {
-    width: 31%
-  }
-
-  .md\:w-\[3-\%\] {
-    width: 3 - %
-  }
-
   .md\:w-\[30\%\] {
     width: 30%
   }
 
-  .md\:w-\[19\.5\%\] {
-    width: 19.5%
-  }
-
-  .md\:w-\[29\.5\%\] {
-    width: 29.5%
-  }
-
-  .md\:w-\[29\%\] {
-    width: 29%
-  }
-
-  .md\:w-\[28\%\] {
-    width: 28%
-  }
-
-  .md\:w-\[27\%\] {
-    width: 27%
+  .md\:w-\[50\%\] {
+    width: 50%
   }
 
   .md\:w-\[25\%\] {
     width: 25%
   }
 
+  .md\:w-\[40\%\] {
+    width: 40%
+  }
+
+  .md\:w-\[35\%\] {
+    width: 35%
+  }
+
   .md\:min-w-\[25\%\] {
     min-width: 25%
   }
 
-  .md\:min-w-\[33\.3\%\] {
-    min-width: 33.3%
-  }
-
   .md\:max-w-\[30\%\] {
     max-width: 30%
-  }
-
-  .md\:basis-\[32\.2\%\] {
-    flex-basis: 32.2%
   }
 
   .md\:basis-\[31\.8\%\] {
