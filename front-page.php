@@ -70,60 +70,95 @@
         <div class="flex flex-wrap gap-[1rem]">
             <div
                 class="text-center w-[50%] basis-[48%] md:basis-[31.8%] lg:basis-[32.2%] border-[1px] border-gray p-[10px]">
-                <div></div>
                 <div>
-                    <h3 class="font-bold">UI/UX Design</h3>
-                    <p class="text-regular text-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                    <figure
+                        class="h-[60px] w-[60px] mx-auto mt-[20px] flex items-center text-center rounded-full p-[10px] bg-lightgray">
+                        <img class="h-[30px] mx-auto"
+                            src="<?php echo get_template_directory_uri(); ?>/assets/svgs/design.svg"
+                            alt="UI/UX Design" />
+                    </figure>
+                    <h3 class="font-bold my-[30px]">UI/UX Design</h3>
+                    <p class="text-regular text-gray mb-[30px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Aliquam
                         nec pharetra dui. Donec bibendum
                         facilisis metus in ullamcorper.</p>
                 </div>
             </div>
             <div
                 class="text-center w-[50%] basis-[48%] md:basis-[31.8%] lg:basis-[32.2%] border-[1px] border-gray p-[10px]">
-                <div></div>
                 <div>
-                    <h3 class="font-bold">Development</h3>
-                    <p class="text-regular text-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                    <figure
+                        class="h-[60px] w-[60px] mx-auto mt-[20px] flex items-center text-center rounded-full p-[10px] bg-lightgray">
+                        <img class="h-[30px] mx-auto"
+                            src="<?php echo get_template_directory_uri(); ?>/assets/svgs/coding.svg"
+                            alt="development" />
+                    </figure>
+                    <h3 class="font-bold my-[30px]">Development</h3>
+                    <p class="text-regular text-gray mb-[30px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Aliquam
                         nec pharetra dui. Donec bibendum
                         facilisis metus in ullamcorper.</p>
                 </div>
             </div>
             <div
                 class="text-center w-[50%] basis-[48%] md:basis-[31.8%] lg:basis-[32.2%] border-[1px] border-gray p-[10px]">
-                <div></div>
                 <div>
-                    <h3 class="font-bold">Content Writing</h3>
-                    <p class="text-regular text-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                    <figure
+                        class="h-[60px] w-[60px] mx-auto mt-[20px] flex items-center text-center rounded-full p-[10px] bg-lightgray">
+                        <img class="h-[30px] mx-auto"
+                            src="<?php echo get_template_directory_uri(); ?>/assets/svgs/writing.svg"
+                            alt="Content Writing" />
+                    </figure>
+                    <h3 class="font-bold my-[30px]">Content Writing</h3>
+                    <p class="text-regular text-gray mb-[30px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Aliquam
                         nec pharetra dui. Donec bibendum
                         facilisis metus in ullamcorper.</p>
                 </div>
             </div>
             <div
                 class="text-center w-[50%] basis-[48%] md:basis-[31.8%] lg:basis-[32.2%] border-[1px] border-gray p-[10px]">
-                <div></div>
                 <div>
-                    <h3 class="font-bold">Branding</h3>
-                    <p class="text-regular text-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                    <figure
+                        class="h-[60px] w-[60px] mx-auto mt-[20px] flex items-center text-center rounded-full p-[10px] bg-lightgray">
+                        <img class="h-[30px] mx-auto"
+                            src="<?php echo get_template_directory_uri(); ?>/assets/svgs/branding.svg" alt="branding" />
+                    </figure>
+                    <h3 class="font-bold my-[30px]">Branding</h3>
+                    <p class="text-regular text-gray mb-[30px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Aliquam
                         nec pharetra dui. Donec bibendum
                         facilisis metus in ullamcorper.</p>
                 </div>
             </div>
             <div
                 class="text-center w-[50%] basis-[48%] md:basis-[31.8%] lg:basis-[32.2%] border-[1px] border-gray p-[10px]">
-                <div></div>
                 <div>
-                    <h3 class="font-bold">Illustration</h3>
-                    <p class="text-regular text-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                    <figure
+                        class="h-[60px] w-[60px] mx-auto mt-[20px] flex items-center text-center rounded-full p-[10px] bg-lightgray">
+                        <img class="h-[30px] mx-auto"
+                            src="<?php echo get_template_directory_uri(); ?>/assets/svgs/illustration.svg"
+                            alt="Illustration" />
+                    </figure>
+                    <h3 class="font-bold my-[30px]">Illustration</h3>
+                    <p class="text-regular text-gray mb-[30px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Aliquam
                         nec pharetra dui. Donec bibendum
                         facilisis metus in ullamcorper.</p>
                 </div>
             </div>
             <div
                 class="text-center w-[50%] basis-[48%] md:basis-[31.8%] lg:basis-[32.2%] border-[1px] border-gray p-[10px]">
-                <div></div>
                 <div>
-                    <h3 class="font-bold">Motion Graphic</h3>
-                    <p class="text-regular text-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                    <figure
+                        class="h-[60px] w-[60px] mx-auto mt-[20px] flex items-center rounded-full p-[10px] bg-lightgray">
+                        <img class="h-[30px] mx-auto"
+                            src="<?php echo get_template_directory_uri(); ?>/assets/svgs/motion.svg"
+                            alt="Motion Graphics" />
+                    </figure>
+                    <h3 class="font-bold my-[30px]">Motion Graphics</h3>
+                    <p class="text-regular text-gray mb-[30px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Aliquam
                         nec pharetra dui. Donec bibendum
                         facilisis metus in ullamcorper.</p>
                 </div>

@@ -28,6 +28,11 @@
           "color": "#7F889F"
         },
         {
+          "name": "LightGray",
+          "slug": "lightgray",
+          "color": "#F9F9F9"
+        },
+        {
           "name": "White",
           "slug": "white",
           "color": "#FFFFFF"

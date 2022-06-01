@@ -609,6 +609,14 @@ html {
   margin-bottom: 50px;
 }
 
+.mb-\[80px\] {
+  margin-bottom: 80px;
+}
+
+.mb-\[15px\] {
+  margin-bottom: 15px;
+}
+
 .mt-4 {
   margin-top: 1rem;
 }
@@ -621,16 +629,12 @@ html {
   margin-bottom: 3rem;
 }
 
-.mb-\[15px\] {
-  margin-bottom: 15px;
+.mt-\[20px\] {
+  margin-top: 20px;
 }
 
-.mb-\[80px\] {
-  margin-bottom: 80px;
-}
-
-.mb-\[60px\] {
-  margin-bottom: 60px;
+.mb-\[30px\] {
+  margin-bottom: 30px;
 }
 
 .block {
@@ -657,8 +661,28 @@ html {
   height: 100vh;
 }
 
+.h-\[80px\] {
+  height: 80px;
+}
+
+.h-\[50px\] {
+  height: 50px;
+}
+
 .h-6 {
   height: 1.5rem;
+}
+
+.h-\[100px\] {
+  height: 100px;
+}
+
+.h-\[60px\] {
+  height: 60px;
+}
+
+.h-\[30px\] {
+  height: 30px;
 }
 
 .min-h-screen {
@@ -677,8 +701,20 @@ html {
   width: 50%;
 }
 
+.w-\[80px\] {
+  width: 80px;
+}
+
 .w-6 {
   width: 1.5rem;
+}
+
+.w-\[100px\] {
+  width: 100px;
+}
+
+.w-\[60px\] {
+  width: 60px;
 }
 
 .min-w-\[50\%\] {
@@ -802,6 +838,11 @@ html {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-lightgray {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 249 249 / var(--tw-bg-opacity));
+}
+
 .object-center {
   -o-object-position: center;
      object-position: center;
@@ -840,6 +881,16 @@ html {
   padding-bottom: 30px;
 }
 
+.py-\[80px\] {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.py-\[20px\] {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -853,21 +904,6 @@ html {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-}
-
-.py-\[60px\] {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
-.py-\[80px\] {
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
-
-.py-\[20px\] {
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
 
 .pb-12 {
@@ -1236,10 +1272,6 @@ article > *:not(.entry-content), .entry-content > * {
 
   .md\:w-\[50\%\] {
     width: 50%;
-  }
-
-  .md\:w-\[49\%\] {
-    width: 49%;
   }
 
   .md\:w-\[48\%\] {
