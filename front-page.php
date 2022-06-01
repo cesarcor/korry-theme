@@ -165,5 +165,61 @@
 
 </section>
 
+<section class="site-section py-[80px]">
+
+    <div class="container mx-auto">
+        <h2 class="text-terciary text-center">-- Products</h2>
+        <span class="font-bold text-xxxl text-center block mb-[80px]">Award winning products</span>
+        <div class="flex gap-[1.5rem]">
+            <article class="hidden md:block w-[50%]">
+                <figure>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/work1.jpg" alt="Work One">
+                </figure>
+            </article>
+            <div class="md:w-[50%] flex flex-wrap gap-[1rem]">
+                <article class="md:w-[48%]">
+                    <figure>
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/work2.jpg" alt="Work Two">
+                    </figure>
+                    <div>
+                        <h3 class="font-bold py-[20px]">Fashion Landing Page</h3>
+                        <p class="text-regular text-gray mb-[15px]">Lorem ipsum dolor sit amet, consectetur adipis elit
+                            iquam
+                            nec pharetra dui.</p>
+                    </div>
+                </article>
+                <article class="md:w-[48%]">
+                    <figure>
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/work3.jpg" alt="Work Two">
+                    </figure>
+                    <h3 class="font-bold py-[20px]">Insurance Landing Page</h3>
+                    <p class="text-regular text-gray mb-[15px]">Lorem ipsum dolor sit amet, consectetur adipis elit
+                        iquam
+                        nec pharetra dui.</p>
+                </article>
+                <article class="md:w-[48%]">
+                    <figure>
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/work4.jpg" alt="Work Two">
+                    </figure>
+                    <h3 class="font-bold py-[20px]">NFT Dashboard</h3>
+                    <p class="text-regular text-gray mb-[15px]">Lorem ipsum dolor sit amet, consectetur adipis elit
+                        iquam
+                        nec pharetra dui.</p>
+                </article>
+                <article class="md:w-[48%]">
+                    <figure>
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/work5.jpg" alt="Work Two">
+                    </figure>
+                    <h3 class="font-bold py-[20px]">Donation Mobile App</h3>
+                    <p class="text-regular text-gray mb-[15px]">Lorem ipsum dolor sit amet, consectetur adipis elit
+                        iquam
+                        nec pharetra dui.</p>
+                </article>
+            </div>
+        </div>
+    </div>
+
+</section>
+
 <?php
 get_footer();

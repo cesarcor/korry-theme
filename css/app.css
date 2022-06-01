@@ -621,6 +621,18 @@ html {
   margin-bottom: 3rem;
 }
 
+.mb-\[15px\] {
+  margin-bottom: 15px;
+}
+
+.mb-\[80px\] {
+  margin-bottom: 80px;
+}
+
+.mb-\[60px\] {
+  margin-bottom: 60px;
+}
+
 .block {
   display: block;
 }
@@ -823,6 +835,11 @@ html {
   padding-bottom: 40px;
 }
 
+.py-\[30px\] {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -838,9 +855,19 @@ html {
   padding-bottom: 1.5rem;
 }
 
-.py-\[30px\] {
-  padding-top: 30px;
-  padding-bottom: 30px;
+.py-\[60px\] {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.py-\[80px\] {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.py-\[20px\] {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .pb-12 {
@@ -1209,6 +1236,14 @@ article > *:not(.entry-content), .entry-content > * {
 
   .md\:w-\[50\%\] {
     width: 50%;
+  }
+
+  .md\:w-\[49\%\] {
+    width: 49%;
+  }
+
+  .md\:w-\[48\%\] {
+    width: 48%;
   }
 
   .md\:min-w-\[25\%\] {
