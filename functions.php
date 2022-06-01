@@ -9,6 +9,10 @@ function tailpress_setup() {
 	register_nav_menus(
 		array(
 			'primary' => __( 'Primary Menu', 'tailpress' ),
+			'company_menu' => __( 'Company Menu', 'tailpress' ),
+			'resources_menu' => __( 'Resources Menu', 'tailpress' ),
+			'links_menu' => __( 'Links Menu', 'tailpress' ),
+			'follow_menu' => __( 'Follow Menu', 'tailpress' )
 		)
 	);
 
